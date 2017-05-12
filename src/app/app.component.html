@@ -1,0 +1,13 @@
+<h1>
+  Chatroom Bonanza!
+</h1>
+<app-chatroom></app-chatroom>
+
+<h3>Messages:</h3>
+<ul class='list-group'>
+	<li
+		*ngFor="let post of posts"
+		class='list-group-item'>
+		{{post}}
+	</li>
+</ul>
